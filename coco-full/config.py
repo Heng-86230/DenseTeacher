@@ -2,7 +2,7 @@ from cvpods.configs.fcos_config import FCOSConfig
 
 from augmentations import WeakAug,StrongAug
 from dataset import FullCOCO,UnlabeledCOCO
-    
+from dataset import *
 _config_dict = dict(
     DATASETS=dict(
         SUPERVISED=[
